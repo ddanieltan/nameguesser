@@ -75,11 +75,7 @@ fonts = [
 hdrs = (
     picolink,
     Link(rel="stylesheet", href="https://unpkg.com/blocks.css/dist/blocks.min.css"),
-    Script(
-        defer="",
-        data_domain="ddanieltan.dev",
-        src="https://plausible.ddanieltan.dev/js/script.js",
-    ),
+    Script(data_goatcounter='https://ddanieltan.goatcounter.com/count', async='', src='//gc.zgo.at/count.js'),
     og_meta_tags,
     *fonts,
     css,
